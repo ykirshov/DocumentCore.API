@@ -1,8 +1,12 @@
 <h1>DocumentCore.API</h1>
 <h4>DocumentCore includes:</h4>
 <ul>
-    <li>Converting Rtf, Doc, Html and other formats of file to PDF.</li>
+    <li>Convert Rtf, Doc, Html and other formats of file to PDF.</li>
+    <li>Convert PDF to Jpeg</li>
+    <li>Create Excel file .xls of data that you send</li>
 </ul>
+All this stuff is implementedd by using DevExpress library. You don't need to install it manualy, it is in the projeect as class libraries .dll.<br>
+To see swagger run your web api and type <code>https://localhost:44374/swagger/ui/index#/</code> in your browser.
 
 <h4>For developers:</h4>
     <ul>
@@ -14,4 +18,3 @@
             <code>Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r</code><br>
     This will help you.<br></li>
 	</ul>
-For additional information: <a href="mailto:y.kirshov@bankvostok.com.ua">y.kirshov@bankvostok.com.ua</a>😄
